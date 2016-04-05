@@ -27,11 +27,11 @@
     
     self.title = @"item1";
     
-    UIImage *image1 = [UIImage imageNamed:@"balloon"];
-    UIImage *image2 = [UIImage imageNamed:@"balloon"];
-    UIImage *image3 = [UIImage imageNamed:@"balloon"];
-    UIImage *image4 = [UIImage imageNamed:@"balloon"];
-    UIImage *image5 = [UIImage imageNamed:@"balloon"];
+    UIImage *image1 = [UIImage imageNamed:@"redBalloon"];
+    UIImage *image2 = [UIImage imageNamed:@"greenBalloon"];
+    UIImage *image3 = [UIImage imageNamed:@"pearlblueBalloon"];
+    UIImage *image4 = [UIImage imageNamed:@"orangeBalloon"];
+    UIImage *image5 = [UIImage imageNamed:@"blueBalloon"];
     
     self.delegate = self;
     

@@ -126,7 +126,7 @@
     
     [UIView animateWithDuration:MOVING_TIME
                      animations:^{
-                         
+                         balloon.alpha = 1;
                          balloon.transform = CGAffineTransformMakeScale(BIGGEST_SCALE, BIGGEST_SCALE);
                          balloon.center = endPoint;
                          
@@ -182,6 +182,12 @@
 {
     [UIView animateWithDuration:MOVING_TIME
                      animations:^{
+                         
+                         _balloon1.alpha = 0.0;
+                         _balloon2.alpha = 0.0;
+                         _balloon3.alpha = 0.0;
+                         _balloon4.alpha = 0.0;
+                         _balloon5.alpha = 0.0;
                          
                          _balloon1.center = _originPoint1;
                          _balloon2.center = _originPoint2;
